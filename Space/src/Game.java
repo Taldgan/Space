@@ -64,7 +64,7 @@ public class Game extends JFrame {
 			render();
 			frames++;
 
-			if (System.currentTimeMillis() - timer >= 1000) {
+			if (System.currentTimeMillis() - timer >= 1000) { //the 1000 is how many times it updates a second, keeps updates int terms of milliseconds basically
 //				System.out.println("FPS: " + frames);
 				timer = System.currentTimeMillis();
 //				n = 0;
